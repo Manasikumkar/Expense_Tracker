@@ -17,8 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Connect to MongoDB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/expense_tracker_db")
-  .then(() => {
+mongoose.connect(process.env.MONGO_URI || "mongodb://mongodb:27017/expense_tracker")  .then(() => {
     console.log("✅ MongoDB Connected to expense_tracker_db");
     
     // Define models
