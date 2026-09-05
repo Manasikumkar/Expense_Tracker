@@ -60,7 +60,7 @@ const Register = () => {
       </div>
 
       {/* Right panel - form */}
-      <div className="flex-1 flex items-center justify-center p-8 relative z-10">
+      <div className="flex-1 flex items-center justify-center px-5 py-8 sm:px-8 relative z-10">
         <div className="w-full max-w-[420px]">
           <div className="lg:hidden flex items-center gap-3 mb-10">
             <div className="w-10 h-10 bg-gradient-to-br from-accent-green to-emerald-600 rounded-xl flex items-center justify-center">

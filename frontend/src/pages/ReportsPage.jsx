@@ -129,7 +129,7 @@ const Reports = () => {
           <h1 className="text-2xl sm:text-3xl font-bold text-white">Reports & Analytics</h1>
           <p className="text-dark-400 text-sm mt-1">Insights into your spending patterns</p>
         </div>
-        <div className="flex gap-2">
+        <div className="flex flex-wrap gap-2">
           {['week', 'month', 'year', 'all'].map(range => (
             <button
               key={range}

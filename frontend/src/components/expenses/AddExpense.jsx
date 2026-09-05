@@ -149,7 +149,7 @@ export default function AddExpense({ onExpenseAdded, editingExpense, onEditCance
           />
         </div>
 
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <div>
             <label className="block text-[13px] font-medium text-dark-300 mb-2">Amount (₹) *</label>
             <div className="relative">

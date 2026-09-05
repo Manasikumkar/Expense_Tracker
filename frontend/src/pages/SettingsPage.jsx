@@ -97,7 +97,7 @@ const Settings = () => {
       )}
 
       {/* Tab navigation */}
-      <div className="flex gap-2 border-b border-white/5 pb-3">
+      <div className="flex flex-wrap gap-2 border-b border-white/5 pb-3">
         {tabs.map(tab => (
           <button
             key={tab.id}
