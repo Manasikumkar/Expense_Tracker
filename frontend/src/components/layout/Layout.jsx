@@ -80,8 +80,7 @@ const Layout = ({ children }) => {
   };
 
   return (
-    <div className="min-h-screen bg-dark-900 flex relative">
-      {/* Ambient background glow */}
+<div className="min-h-dvh bg-dark-900 flex relative">      {/* Ambient background glow */}
       <div className="ambient-glow" />
       
       {/* Mobile overlay */}
@@ -174,8 +173,7 @@ const Layout = ({ children }) => {
       </aside>
 
       {/* Main content */}
-      <div className="flex-1 flex flex-col min-h-screen min-w-0 relative z-10">
-        {/* Top bar */}
+<div className="flex-1 flex flex-col min-h-dvh min-w-0 relative z-10">        {/* Top bar */}
         <header className="sticky top-0 z-30 bg-dark-900/80 backdrop-blur-xl border-b border-white/5">
           <div className="flex items-center justify-between h-16 px-4 sm:px-6 lg:px-8">
             {/* Mobile menu button */}

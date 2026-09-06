@@ -25,8 +25,7 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen w-full flex relative bg-dark-900">
-      {/* Ambient background */}
+<div className="min-h-dvh w-full flex relative bg-dark-900">      {/* Ambient background */}
       <div className="ambient-glow" />
 
       {/* Left panel - branding */}
